@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff00ff; /* Matching the pink background color */
+    color: white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5); /* Slightly darker background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.button {
+    background-color: #ff00ff; /* Pink button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #cc00cc; /* Slightly darker pink for hover effect */
+}
+
+.note {
+    font-weight: bold;
+}
